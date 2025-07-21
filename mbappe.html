@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <title>კილიან მბაპე</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #000000, #1a1a1a);
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      .container {
+        padding: 30px;
+        animation: fadeIn 2s ease;
+      }
+      img.main-img {
+        width: 250px;
+        border-radius: 50%;
+        box-shadow: 0 0 20px #ffffff55;
+        transition: transform 0.5s ease;
+      }
+      img.main-img:hover {
+        transform: scale(1.1);
+      }
+      h1 {
+        font-size: 36px;
+        margin-top: 20px;
+      }
+      p {
+        max-width: 600px;
+        margin: 20px auto;
+        line-height: 1.6;
+        font-size: 18px;
+      }
+      a.button {
+        display: inline-block;
+        margin: 10px 10px 0 10px;
+        padding: 10px 20px;
+        background: #ffcc00;
+        color: #000;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      a.button:hover {
+        background: #e6b800;
+      }
+      .gallery {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .gallery img {
+        width: 200px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ffffff33;
+        transition: transform 0.4s;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+      .menu {
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+      .menu a {
+        margin: 0 15px;
+        padding: 10px 20px;
+        background: #ffcc00;
+        color: black;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+      .menu a:hover {
+        background: #e6b800;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="main-img"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kylian_Mbapp%C3%A9_2019.jpg/440px-Kylian_Mbapp%C3%A9_2019.jpg"
+        alt="კილიან მბაპე"
+      />
+      <h1>კილიან მბაპე</h1>
+      <p>
+        კილიან მბაპე არის საფრანგეთის პროფესიონალი ფეხბურთელი, რომელიც თამაშობს
+        როგორც თავდამსხმელი. ის დაიბადა 1998 წელს და ცნობილია თავისი სისწრაფით,
+        დრიბლინგით და გოლების გატანის უნარით. მბაპე გახდა მსოფლიო ჩემპიონი
+        საფრანგეთის ნაკრებთან ერთად 2018 წელს.
+      </p>
+
+      <div class="menu">
+        <a href="mbappe.html">მთავარი</a>
+        <a href="goals.html">გოლები</a>
+        <a href="manchester.html">მანჩესტერ სიტი</a>
+      </div>
+
+      <a class="button" href="goals.html"
+        >ნახე მბაპეს 2 გოლი არგენტინის წინააღმდეგ</a
+      >
+      <a class="button" href="manchester.html"
+        >ნახე მბაპეს ჰეთ-თრიქი მანჩესტერ სიტის წინააღმდეგ</a
+      >
+
+      <div class="gallery">
+        <img
+          src="https://tse1.mm.bing.net/th/id/OIP.lPzF_-MrguzOwKTRsMK_AQHaJQ?pid=Api"
+          alt="მბაპე 1"
+        />
+        <img src="https://wallpaperaccess.com/full/1425227.jpg" alt="მბაპე 2" />
+        <img
+          src="https://tse4.mm.bing.net/th/id/OIP.nF0ecNRTQwpe_AouY7cglQHaFj?pid=Api&P=0&h=220"
+          alt="მბაპე 3"
+        />
+        <img
+          src="https://cosasbucket.s3.amazonaws.com/wp-content/uploads/2022/12/19110603/mbappe-anoto-goles-tantos-qatar-1.jpg"
+          alt="მბაპე 4"
+        />
+      </div>
+    </div>
+  </body>
+</html>
